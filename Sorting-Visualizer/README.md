@@ -1,2 +1,2 @@
 # Sorting visualizer
-Just to learn  and explore Git &amp; GitHub
+Just to learn sorting algorithms in through visualization
