@@ -11,7 +11,7 @@ Displays real time according to computer's location
 
 - To start, run `Clock.py` file or:
 ```bash
-$ python Project.py
+$ python Clock.py
 ```
 
 # Screenshots
