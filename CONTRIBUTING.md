@@ -9,23 +9,34 @@ Do check our [First Contribution](https://github.com/Clueless-Community/first-co
 ```bash
 git clone https://github.com/MihirRajeshPanchal/GUI-Projects.git
 ```
+## Create and checkout to the new branch.
+```powershell
+git checkout -b <branch_name>
+```
 
 ## Change the directory
 ```bash
 cd GUI-Projects
 ```
+
+## Create a separate folder for your project
+### For Example Project_1 is the project i want to commit
+```bash
+cd Project_1
+```
+
 > Folder Structure
 ```
 📂GUI-Projects
 │   
-└───📂Project 1
+└───📂Project_1
 │   │   
 │   └───Project files
 │   │ 
 |   └───README.md
 │   │ 
 |   └───requirements.txt(If required)
-└───📂Project 2
+└───📂Project_2
 │   │   
 │   └───Project files
 │   │ 
@@ -35,24 +46,21 @@ cd GUI-Projects
 .
 .
 .
-
     📄.gitignore
     📄CONTRIBUTING.md
-    📄main.py
+    📄LICENSE.md
     📄README.md
-    📄requirements.txt
 ```
-# Note : Create a separate Folder for each GUI Project along with Readme.md and requirements.txt(if needed) file 
+
+# Note : Create a separate Folder for each GUI Project along with readme.md and requirements.txt(if needed) file 
 
 Once you are done with the changes you wanted to add. Follow the steps to make the pull request.
-## Create and checkout to the new branch.
-```powershell
-git checkout -b <branch_name>
-```
+
 ## Add the changes
 ```
 git add .
 ```
+
 ## Commit your change with a proper messagge
 ```
 git commit -m "Enter your message here"
